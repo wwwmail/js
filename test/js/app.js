@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // class EventManager {
 //  constructor() {
 //    if (EventManager._isInitialized) {
@@ -81,3 +82,6 @@ console.log(eventManager);
 //console.log(um2.getName() === 'Kakarotto');
 //console.log(um3.getName() === 'Kakarotto');
 //console.log(um4.getName() === 'Kakarotto');
+=======
+
+>>>>>>> 9e369a3c064b92cdc2de5ff0974469395fa7dda7
