@@ -1,0 +1,77 @@
+ul li{
+        display:inline-block;
+        width: 14.28%;
+        float: left;
+        text-align: center;
+}
+
+ul li {
+    width: 14.28%;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border: 2px solid transparent;
+   
+}
+
+ul.dates li.current-day {
+    border: 2px solid #673AB7;
+    color: #673AB7;
+    font-weight: bold;
+}
+
+
+
+.info{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+
+.calendar-header{
+    text-align: center;
+    padding: 10px 0;
+    background: #673bb7;
+    color: #fff;
+    font-size: 16px;
+}
+
+#app{
+    max-width: 350px;
+    border: 2px solid #673AB7;
+}
+ul {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 0;
+    padding: 0;
+}
+.weekdays {
+    border-bottom: 1px solid #9644b6;
+}
+.weekdays li {
+    font-weight: bold;
+    color: #9644b6;
+}
+.dates li:hover {
+    border: 2px solid #bfa2ce;
+    color: #9454b6;
+    cursor: pointer;
+}
+.chosen-day{
+    border: 2px solid #44abb6;
+    color: #44abb6;
+    font-weight: bold;
+}
+.prev, .next {
+    cursor: pointer;
+    width: 50px;
+    text-align: center;
+}
+.prev {
+    float: left;
+}
+.next {
+    float: right;
+}
